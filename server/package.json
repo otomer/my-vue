@@ -11,21 +11,24 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.2",
+    "bluebird": "^3.5.0",
     "cors": "^2.8.4",
     "express": "^4.16.2",
+    "joi": "^10.6.0",
+    "jsonwebtoken": "^8.2.0",
     "morgan": "^1.9.0",
     "sequelize": "^4.8.0",
-    "sqlite3": "^3.1.8",
-    "joi": "^10.6.0"
+    "sqlite3": "^3.1.13"
   },
   "devDependencies": {
+    "eslint": "^4.17.0",
     "eslint-config-standard": "^11.0.0-beta.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-node": "^6.0.0",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
-    "eslint": "^4.17.0",
     "nodemon": "^1.14.12"
   }
 }
